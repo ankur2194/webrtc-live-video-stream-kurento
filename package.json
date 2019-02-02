@@ -1,0 +1,29 @@
+{
+  "name": "webrtc-live-video-stream-kurento",
+  "version": "1.0.0",
+  "description": "Live Video Stream with multiple live stream compatibility",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "postinstall": "cd static && bower install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ankur2194/webrtc-live-video-stream-kurento.git"
+  },
+  "author": "Ankur Patel <ankur2194@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ankur2194/webrtc-live-video-stream-kurento/issues"
+  },
+  "homepage": "https://github.com/ankur2194/webrtc-live-video-stream-kurento#readme",
+  "dependencies": {
+    "express": "~4.12.4",
+    "kurento-client": "github:Kurento/kurento-client-js",
+    "minimist": "^1.1.1",
+    "ws": "~1.0.1"
+  },
+  "devDependencies": {
+    "bower": "^1.4.1"
+  }
+}
